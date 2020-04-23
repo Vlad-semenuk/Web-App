@@ -1,0 +1,159 @@
+#reg{
+width: 600px;
+margin: 0 auto;
+}
+#log{
+width: 600px;
+margin: 0 auto;
+}
+
+
+  form label {
+    display: inline-block;
+    width: 100px;
+  }
+
+  form div {
+    margin-bottom: 10px;
+  }
+
+  .error {
+    color: red;
+    margin-left: 5px;
+  }
+
+  label.error {
+    display: inline;
+  }
+
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.shopping-cart {
+  margin: 20px 0;
+  float: right;
+  background: white;
+  width: 320px;
+  position: relative;
+  border-radius: 3px;
+  padding: 20px;
+
+
+  .shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+
+    .shopping-cart-total {
+      float: right;
+    }
+  }
+
+  .shopping-cart-items {
+
+    padding-top: 20px;
+
+      li {
+        margin-bottom: 18px;
+      }
+
+    img {
+      float: left;
+      margin-right: 12px;
+    }
+
+    .item-name {
+      display: block;
+      padding-top: 10px;
+      font-size: 16px;
+    }
+
+    .item-price {
+      color: $main-color;
+      margin-right: 8px;
+    }
+
+    .item-quantity {
+      color: $light-text;
+    }
+  }
+
+}
+
+.shopping-cart:after {
+	bottom: 100%;
+	left: 89%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: white;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
+.cart-icon {
+  color: #515783;
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+
+
+
+
+body{
+ background: #ececec;
+}
+img {
+ height: auto;
+ max-width: 100%;
+}
+.content{
+ margin-top: 50px;
+}
+.product {
+ background: #fff none repeat scroll 0 0;
+ border: 1px solid #c0c0c0;
+ height: 390px;
+ overflow: hidden;
+ padding: 25px 15px;
+ position: relative;
+ text-align: center;
+ transition: all 0.5s ease 0s;
+ margin-bottom: 20px;
+}
+.product:hover {
+ box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.product-img {
+ height: 200px;
+}
+.product-title a {
+ color: #000;
+ font-weight: 500;
+ text-transform: uppercase;
+}
+.product-desc {
+ max-height: 60px;
+ overflow: hidden;
+}
+.product-price {
+ bottom: 15px;
+ left: 0;
+ position: absolute;
+ width: 100%;
+ color: #d51e08;
+ font-size: 18px;
+ font-weight: 500;
+}

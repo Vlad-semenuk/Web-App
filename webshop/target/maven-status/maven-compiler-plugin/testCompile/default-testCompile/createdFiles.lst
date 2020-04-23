@@ -1,0 +1,3 @@
+com\epam\semeniuk\common\validator\CaptchaValidatorTest.class
+com\epam\semeniuk\filter\LocaleFilterTest.class
+com\epam\semeniuk\servlet\RegisterServletTest.class

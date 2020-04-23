@@ -1,0 +1,10 @@
+ <c:choose>
+    <c:when test="${sessionScope.locale eq null}">
+      <fmt:setLocale value="${cookie.locale.value}"/>
+      <fmt:setBundle basename="locale"/>
+    </c:when>
+    <c:otherwise>
+       <fmt:setLocale value="${sessionScope.locale.getLanguage()}"/>
+       <fmt:setBundle basename="locale"/>
+    </c:otherwise>
+ </c:choose>

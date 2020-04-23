@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<securities>
+    <constraint>
+        <url>/admin</url>
+        <role>admin</role>
+    </constraint>
+    <constraint>
+        <url>/createOrder</url>
+        <role>user</role>
+    </constraint>
+</securities>
